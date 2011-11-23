@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btMessageOfTheDay">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		
+		<field name="blockPool_cID" type="I">
+			<unsigned />
+			<default value="0"/>
+		</field>
+		
+		<field name="blockPool_arHandle" type="C" size="128"></field>			
+		
+		<field name="displayCount" type="I">
+			<default value="0"/>
+		</field>
+		
+		<field name="displayOrder" type="C" size="64"></field>	
+		
+		<field name="duration" type="N" size="10.2">
+			<default value="24"/>
+		</field>
+		
+		<field name="animate" type="I">
+			<default value="0"/>
+		</field>
+		
+		<field name="animationDuration" type="I">
+			<default value="4"/>
+		</field>	
+		
+		<field name="animationTrans" type="I">
+			<default value="4"/>
+		</field>						
+		
+		<field name="animationType" type="C" size="64"></field>				
+		
+		<field name="animateDisplayLimit" type="I">
+			<default value="100"/>
+		</field> 
+		
+		<field name="currentBlockPool" type="X">
+			<default value="0"/>
+		</field>
+		<field name="lastChanged" type="T">
+		</field>
+		<field name="resetCounterAt" type="T">
+		</field>
+	</table>
+</schema>
