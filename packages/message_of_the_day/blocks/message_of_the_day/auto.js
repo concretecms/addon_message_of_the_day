@@ -8,18 +8,28 @@ var message_of_the_dayBlock ={
 		var animate=$('#ccm-message_of_the_dayAnimateCheckbox');
 		animate.change(function(){ message_of_the_dayBlock.showAnimationOpts(this) })
 		animate.click(function(){ message_of_the_dayBlock.showAnimationOpts(this) })
-		 
-		$('#ccm-block-form input[name="bookPool_fromScrapbook"]').change(function(){ message_of_the_dayBlock.showPageSelector(); });
-		$('#ccm-block-form input[name="bookPool_fromScrapbook"]').click(function(){ message_of_the_dayBlock.showPageSelector(); });
+		
+		$('#ccm-block-fields input[name="using_stacks"]').change(function(){ message_of_the_dayBlock.showPageSelector(); });
+		$('#ccm-block-fields input[name="using_stacks"]').click(function(){ message_of_the_dayBlock.showPageSelector(); });
 	},
 	
-	showPageSelector:function(){ 
-		var scrapbookRadio=$('#bookPool_fromScrapbookOnRadio')
-		var checked=$('#bookPool_fromScrapbookOnRadio').get(0).checked
+	showPageSelector:function(){/* this can just be switching the thing because you're not selecting areas for a stack */ 
+		var checked=$('#using_stacksOn').get(0).checked;
+		var scrapbooking=$('#using_scrapbookOn').get(0).checked;
 		if(checked){
-			 $('#ccm-message_of_the_day-page-selector').css('display','none'); 
-			 this.refreshAreas($('#bookPool_fromScrapbookOnRadio').val());
-		}else $('#ccm-message_of_the_day-page-selector').css('display','block');
+			 $('#ccm-motd-page-selector').css('display','none'); 
+			 $('#scrapbook-list').hide();
+			 $('#stack-list').show();
+			/* this.refreshAreas($('#bookPool_fromScrapbookOnRadio').val());*/
+		}else if(scrapbooking){
+			$('#stack-list').hide();
+			$('#ccm-motd-page-selector').css('display','none'); 
+			$('#scrapbook-list').show();
+		}else{
+			$('#ccm-motd-page-selector').css('display','block');
+			$('#stack-list').hide();
+			$('#scrapbook-list').hide();
+		}
 	},
 	 
 	showAnimationOpts:function(cb){

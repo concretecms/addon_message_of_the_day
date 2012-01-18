@@ -9,6 +9,7 @@ class MessageOfTheDayBlockController extends BlockController {
 	protected $btTable = 'btMessageOfTheDay';
 	protected $btInterfaceWidth = "350";
 	protected $btInterfaceHeight = "300";
+	protected $btWrapperClass = 'ccm-ui';
 	
 	public $blockPool_cID=0;
 	public $blockPool_arHandle='';
@@ -53,6 +54,11 @@ class MessageOfTheDayBlockController extends BlockController {
 		if(intval($data['bookPool_fromScrapbook']))
 		$args['blockPool_cID'] = intval($data['bookPool_fromScrapbook']); 
 		$args['blockPool_arHandle'] = ($data['blockPool_arHandle'])?$data['blockPool_arHandle']:'Main';
+		$args['using_stacks'] = intval(($data['using_stacks'] == 1)?true:false);
+		if($args['using_stacks']) {
+			$args['blockPool_arHandle']=STACKS_AREA_NAME;
+			$args['blockPool_cID']=$data['stack_cID'];
+		}
 		$args['displayCount'] = intval($data['displayCount']);
 		$args['displayOrder'] = ($data['displayOrder'])?$data['displayOrder']:'cycle';
 		$args['duration'] = floatval($data['duration']);
