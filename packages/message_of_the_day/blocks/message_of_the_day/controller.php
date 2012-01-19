@@ -9,9 +9,11 @@ class MessageOfTheDayBlockController extends BlockController {
 	protected $btTable = 'btMessageOfTheDay';
 	protected $btInterfaceWidth = "350";
 	protected $btInterfaceHeight = "300";
+	protected $btWrapperClass = 'ccm-ui';
 	
 	public $blockPool_cID=0;
 	public $blockPool_arHandle='';
+	public $blockSource = 'page';
 	
 	public function getJavaScriptStrings() {
 		return array(
@@ -33,6 +35,7 @@ class MessageOfTheDayBlockController extends BlockController {
 	
 	public function getCollectionData(){
 		$data=array();
+		$data['blockSource'] = $this->blockSource;
 		$data['blockPool_cID']=$this->blockPool_cID;
 		$data['blockPool_arHandle']=$this->blockPool_arHandle;
 		$data['displayCount']=$this->displayCount;
@@ -49,10 +52,27 @@ class MessageOfTheDayBlockController extends BlockController {
 	
 	public function save($data){
 	
-		$args['blockPool_cID'] = intval($data['blockPool_cID']); 
-		if(intval($data['bookPool_fromScrapbook']))
-		$args['blockPool_cID'] = intval($data['bookPool_fromScrapbook']); 
-		$args['blockPool_arHandle'] = ($data['blockPool_arHandle'])?$data['blockPool_arHandle']:'Main';
+		$args['blockSource'] 		= $data['blockSource'];
+		$args['blockPool_cID'] 		= intval($data['blockPool_cID']);
+		$args['blockPool_arHandle'] = 'Main';
+		
+		// set the page and area appropriately depending on what kind of place we're getting the data from
+		switch($args['blockSource']) {
+			case 'stack':
+				$args['blockPool_arHandle'] = STACKS_AREA_NAME;
+				$args['blockPool_cID'] = $data['stack_cID'];
+			break;
+			
+			case 'scrapbook':
+				$args['blockPool_arHandle'] = $data['blockPool_arHandle'];
+				$args['blockPool_cID'] = Loader::helper('concrete/scrapbook')->getGlobalScrapbookPage()->getCollectionID(); 
+			break;
+			
+			case 'page':
+			default:
+				$args['blockPool_arHandle'] = $data['blockPool_arHandle'];
+			break;
+		}
 		$args['displayCount'] = intval($data['displayCount']);
 		$args['displayOrder'] = ($data['displayOrder'])?$data['displayOrder']:'cycle';
 		$args['duration'] = floatval($data['duration']);
