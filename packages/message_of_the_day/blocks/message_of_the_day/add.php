@@ -2,10 +2,11 @@
 
 <?php  
 $info = array();
+$info['blockSource'] = 'page';
 $info['displayCount']=1;
 $info['displayOrder']='cycle';
 $info['duration']=24;
-$info['animate']=0;
+$info['animate']=1;
 $info['animationTrans']=2;
 $info['animateDisplayLimit']=15;
 

@@ -27,6 +27,8 @@
 			<default value="0"/>
 		</field>
 		
+		<field name="blockSource" type="C" size="50"/>
+		
 		<field name="animationDuration" type="I">
 			<default value="4"/>
 		</field>	
