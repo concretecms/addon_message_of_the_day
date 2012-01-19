@@ -1,4 +1,3 @@
-
 <div id="ccm-message_of_the_dayBlock<?php echo intval($bID) ?>" class="ccm-message_of_the_dayBlock">
 <?php  
 $blocksDisplayed=0; 
@@ -31,6 +30,7 @@ if( $animate ){
 	//echo '$blocksDisplayed: '.$blocksDisplayed.' $displayCount'.$displayCount.' '.($blocksDisplayed % $displayCount).'<br>';
 	$numberToPrint = $displayCount - $blocksDisplayed % $displayCount;
 	if(($blocksDisplayed % $displayCount)!=0) for($i=0;$i<$numberToPrint;$i++){
+		if (!$blockPoolBlocks[$i]) break;
 		echo '<div class="ccm-message_of_the_dayBlockWrap">';
 			$bv = new BlockView();
 			$bv->render($blockPoolBlocks[$i]); 		
