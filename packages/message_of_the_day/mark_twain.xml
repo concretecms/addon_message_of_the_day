@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+<stacks>
+	<stack name="Message of the day - Mark Twain">
+		<area name="Main">
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A man cannot be comfortable without his own approval.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A man is never more truthful than when he acknowledges himself a liar.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A man who carries a cat by the tail learns something he can learn in no other way.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A man's character may be learned from the adjectives which he habitually uses in conversation.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A person who won't read has no advantage over one who can't read.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A person with a new idea is a crank until the idea succeeds.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A round man cannot be expected to fit in a square hole right away. He must have time to modify his shape.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Action speaks louder than words but not nearly as often.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Advertisements contain the only truths to be relied on in a newspaper.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Against the assault of laughter nothing can stand.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Age is an issue of mind over matter. If you don't mind, it doesn't matter.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ All generalizations are false, including this one.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ All right, then, I'll go to hell.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ All you need is ignorance and confidence and the success is sure.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Always do right. This will gratify some people and astonish the rest.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Any emotion, if it is sincere, is involuntary.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Apparently there is nothing that cannot happen today.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ As an example to others, and not that I care for moderation myself, it has always been my rule never to smoke when asleep, and never to refrain from smoking when awake.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Be careful about reading health books. You may die of a misprint.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Be careless in your dress if you will, but keep a tidy soul.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Better a broken promise than none at all.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Biographies are but the clothes and buttons of the man. The biography of the man himself cannot be written.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ But who prays for Satan? Who, in eighteen centuries, has had the common humanity to pray for the one sinner that needed it most?
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Buy land, they're not making it anymore.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ By trying we can easily endure adversity. Another man's, I mean.
+							<br>-Mark Twain]]>
+						</content>
+					</record>
+				</data>
+			</block>
+		</area>
+	</stack>
+</stacks>
+</concrete5-cif>
