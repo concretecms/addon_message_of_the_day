@@ -6,7 +6,7 @@ class MessageOfTheDayPackage extends Package {
 
 	protected $pkgHandle = 'message_of_the_day';
 	protected $appVersionRequired = '5.5';
-	protected $pkgVersion = '1.1';  
+	protected $pkgVersion = '1.2dev';
 	
 	public function getPackageName() {
 		return t("Message of the day"); 
@@ -16,38 +16,25 @@ class MessageOfTheDayPackage extends Package {
 		return t("Display the message of the day.");
 	}
 	
-	public function install() {
+	public function install($options = array()) {
 		$pkg = parent::install();
 		
 		// install block
 		BlockType::installBlockTypeFromPackage('message_of_the_day', $pkg);
-		$this->addScrapbookContent($pkg); 
+		$this->addStackContent($options);
 	}
 	
-	private function addScrapbookContent($pkg) {	
-		try {
-			$xml = simplexml_load_file($pkg->getPackagePath() .'/seed_messages.xml','SimpleXMLElement', LIBXML_NOCDATA);
-			$u = new User();
-			
-			Loader::model('stack');
-			
-			foreach($xml->scrapbook as $sb) {
-				$title = t('Message of the day - ').$sb->title;
-				
-				Stack::addStack($title);
-				$stack = Stack::getByName($title);
-				
-				foreach($sb->content as $content) {
-					$bt = BlockType::getByHandle('content');
-					$data = array();
-					$data['uID'] = $u->getUserID();
-					$data['content'] = $content;
-					$stackArea = Area::get($stack,STACKS_AREA_NAME);
-					$stack->addBlock($bt, $stackArea, $data);
-				}
-			}
-		} catch ( Exception $e ) {
-			throw $e;
+	protected function addStackContent($options) {
+		$pkg = Package::getByHandle('message_of_the_day');
+		if(version_compare(Config::get('SITE_APP_VERSION'), '5.6', 'lt')) {
+			Loader::library('content/importer');
+		}
+		$contentImporter = new ContentImporter();
+		if($options['mark-twain'] === 'yes') {
+			$contentImporter->importContentFile(dirname(__FILE__).'/mark_twain.xml');
+		}
+		if($options['scripture'] === 'yes') {
+			$contentImporter->importContentFile(dirname(__FILE__).'/scripture.xml');
 		}
 	}
 
