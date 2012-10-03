@@ -1,2 +1,6 @@
+1.2dev
+  - Update for 5.6
+  - Reduces sample content to realistic execution time for shared host
+  - Adds option to not install sample content
 1.1 - updated for concrete5.5
 1.0 - Initial Release
