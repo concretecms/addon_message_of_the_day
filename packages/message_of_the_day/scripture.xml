@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+<stacks>
+	<stack name="Message of the day - Scriptute">
+		<area name="Main">
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ For I verily, absent in body, but present in spirit, have judged already, as though I were present, concerning him that hath so done this deed, . . .
+							<br>Topic: Absence<br>
+							Source: I Corinthians (ch. V, v. 3)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A man's life consisteth not in the abundance of the things which he possesseth. [Luke 12:15]
+							<br>Topic: Abundance<br>
+							Source: None<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Whatsoever thy hand findeth to do, do it with thy might.
+							<br>Topic: Action<br>
+							Source: Ecclesiastes (ch. IX, v. 10)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Go, and do thou likewise.
+							<br>Topic: Action<br>
+							Source: Luke (ch. X, v. 37)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets.
+							<br>Topic: Action<br>
+							Source: "Golden Rule", Matthew (ch. VII, v. 12)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Iron sharpeth iron.
+							<br>Topic: Action<br>
+							Source: Proverbs (ch. XXVII, v. 17)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ . . . it is hard for thee to kick against the pricks.
+							<br>Topic: Adversity<br>
+							Source: Acts (ch. IX, v. 5)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ In the day of prosperity be joyful, but in the day of adversity consider.
+							<br>Topic: Adversity<br>
+							Source: Ecclesiastes (ch. VII, v. 14)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Remember Lot's wife.
+							<br>Topic: Advice<br>
+							Source: Luke (ch. XVII, v. 32)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Where no counsel is, the people fall: but in the multitude of counsellers there is safety.
+							<br>Topic: Advice<br>
+							Source: Proverbs (ch. XI, v. 14)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ For by wise counsel thou shalt make thy war: and in multitude of counsellers there is safety.
+							<br>Topic: Advice<br>
+							Source: Proverbs (ch. XXIV, v. 6)<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Do to others what you would have them do to you. The source of the famous "Golden Rule." Many famous lines were variations on this theme. - Matthew 7:12.
+							<br>Topic: Advice / Experience / Wisdom<br>
+							Source: None<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ A man's life consisteth not in the abundance of the things which he possesseth. [Luke 12:15].
+							<br>Topic: Advice / Experience / Wisdom<br>
+							Source: None<br>]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Do unto others as you would have others do unto you. [Matthew 7:120].
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ They that sow in tears shall reap joy. [Psalms 126:5].
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ As a man thinks in his heart, so is he. [Proverbs 23:7].
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ And you will know the truth, and the truth will make you free. [John 8:32].
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Take good hold of instruction and don't let her go, keep her for she is your life.
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ He that has pity on the poor lends to the Lord.
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Finally, brethren, whatever is true, whatever is honorable, whatever, is right, whatever is pure, whatever is lovely, whatever is of good repute, if there is any excellence and if anything worthy of praise, let your mind dwell on these things. [Philippians 4:8].
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ In much wisdom is much grief; and he that increaseth knowledge increaseth sorrow.
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ The testimony of the Lord is sure making wise the simple. [Psalms 19:7].
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Ask, and it shall be given you; seek; and you shall find; knock and it shall be opened unto you. For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened. [Matthew 7:7-8].
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+			<block type="content" name="">
+				<data table="btContentLocal">
+					<record>
+						<content>
+							<![CDATA[ Be not curious in unnecessary matters: for more things are shrewd unto thee than men understand.
+							<br>Topic: Advice / Experience / Wisdom<br> ]]>
+						</content>
+					</record>
+				</data>
+			</block>
+		</area>
+	</stack>
+</stacks>
+</concrete5-cif>

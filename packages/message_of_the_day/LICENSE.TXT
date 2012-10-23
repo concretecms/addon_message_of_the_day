@@ -1,2 +1,2 @@
-Liscence at:
-http://www.concrete5.org/marketplace/addons/message_of_the_day/liscence
+License at:
+http://www.concrete5.org/marketplace/addons/message_of_the_day/license
