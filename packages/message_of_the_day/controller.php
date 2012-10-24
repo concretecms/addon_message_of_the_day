@@ -6,7 +6,7 @@ class MessageOfTheDayPackage extends Package {
 
 	protected $pkgHandle = 'message_of_the_day';
 	protected $appVersionRequired = '5.5';
-	protected $pkgVersion = '1.2dev';
+	protected $pkgVersion = '1.2';
 	
 	public function getPackageName() {
 		return t("Message of the day"); 

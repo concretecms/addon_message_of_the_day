@@ -1,4 +1,4 @@
-1.2dev
+1.2
   - Update for 5.6
   - Reduces sample content to realistic execution time for shared host
   - Adds option to not install sample content

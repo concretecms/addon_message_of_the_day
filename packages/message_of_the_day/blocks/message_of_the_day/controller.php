@@ -4,16 +4,22 @@ class MessageOfTheDayBlockController extends BlockController {
 	
 	var $pobj;
 	
-	protected $btDescription = "Display a message of the day.";
-	protected $btName = "Message Of The Day";
 	protected $btTable = 'btMessageOfTheDay';
-	protected $btInterfaceWidth = "350";
-	protected $btInterfaceHeight = "300";
+	protected $btInterfaceWidth = "400";
+	protected $btInterfaceHeight = "350";
 	protected $btWrapperClass = 'ccm-ui';
 	
-	public $blockPool_cID=0;
-	public $blockPool_arHandle='';
+	public $blockPool_cID = 0;
+	public $blockPool_arHandle = '';
 	public $blockSource = 'page';
+	
+	public function getBlockTypeName() {
+		return t("Message Of The Day");
+	}
+	
+	public function getBlockTypeDescription() {
+			return t("Display a message of the day.");
+	}
 	
 	public function getJavaScriptStrings() {
 		return array(
